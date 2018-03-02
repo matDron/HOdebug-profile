@@ -1,0 +1,1 @@
+Para el caso de fpe, se estableció que al utilizar la opción -DTRAPFPE al compilar, se logró obtener la información de que no se podia acceder al directorio fpe_x87_sse, con un compañero armamos un makefile para direccionar a dicho directorio mediante la opcion -I (sacada de internet), aunque no logramos que el makefile acceda a los .o.

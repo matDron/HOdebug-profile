@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     c = -1.;
   }
 
-  printf("Done!");
+  printf("Done!\n");
   printf("c = %f \n", c);
   
   return(EXIT_SUCCESS);

@@ -4,7 +4,8 @@
 int add_array(int *a, int *b, int n){
   int sum = 0;
   int i = 0;
-  for (i = 0; i <= n + 1; i++) {
+  for (i = 0; i < n; i++) {
+//arreglado que el loop solo vaya hasta n 
     sum += abs(a[i]);
     sum += abs(b[i]);
   };
@@ -23,5 +24,8 @@ int main(int argc, char **argv) {
   }
   sum = add_array(a, b, 3);
   printf("The addition is %d\n", sum);
+//arreglado liberar la memoria de a y b
+  free(a);
+  free(b);
   return 0;
 }
